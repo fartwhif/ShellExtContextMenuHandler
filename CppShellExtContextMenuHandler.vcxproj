@@ -157,8 +157,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="GlobalExportFunctions.def" />
+    <None Include="install.cmd">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
     <None Include="OK.bmp" />
     <None Include="ReadMe.md" />
+    <None Include="uninstall.cmd">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClassFactory.h" />
